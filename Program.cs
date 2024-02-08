@@ -26,6 +26,7 @@ namespace BeatifulAddress
             Console.WriteLine($"Address: {result[0]}");
             Console.WriteLine($"PrivateKey: {result[1]}");
             Console.WriteLine($"Mnemonic: {result[2]}");
+            Console.ReadLine();
 
         }
         static string[] GenerateBeautifulAddressFromBeginning(string beginning)
