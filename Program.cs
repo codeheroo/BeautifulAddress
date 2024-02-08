@@ -38,7 +38,7 @@ namespace BeatifulAddress
                 var account = wallet.GetAccount(0);
                 Console.WriteLine("Generating... ");
                 Console.WriteLine(account.Address);
-                Console.WriteLine(account.Address.Length);
+
                 if (beginning == account.Address.Substring(0, beginning.Length))
                 {
                     return [account.Address, account.PrivateKey, mnemo.ToString()];
